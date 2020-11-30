@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2020-10-20 11:03\n"
+"PO-Revision-Date: 2021-01-11 01:57\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: privateurls/templates/private_urls.html:4
 #: privateurls/templates/private_urls.html:5 privateurls/views.py:144
 msgid "Private URLs"
-msgstr ""
+msgstr "URL Privat"
 
 #: privateurls/templates/private_urls.html:17
 msgid "The private URLs for ballot and/or feedback submission from participants are given below."
@@ -148,7 +148,7 @@ msgstr ""
 
 #: privateurls/views.py:86
 msgid "Speakers"
-msgstr ""
+msgstr "Pembicara"
 
 #: privateurls/views.py:96
 msgid "Adjudicators"
