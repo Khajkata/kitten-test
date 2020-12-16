@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-19 19:52-0300\n"
-"PO-Revision-Date: 2020-08-30 23:04\n"
+"POT-Creation-Date: 2020-12-29 23:49-0400\n"
+"PO-Revision-Date: 2020-12-31 14:47\n"
 "Last-Translator: \n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -22,9 +22,9 @@ msgid "Application Programming Interface"
 msgstr ""
 
 #: checkins/apps.py:7 templates/nav/admin_nav.html:113
-#: templates/nav/assistant_nav.html:38 templates/nav/public_nav.html:92
+#: templates/nav/assistant_nav.html:38 templates/nav/public_nav.html:105
 msgid "Check-Ins"
-msgstr "আগমন"
+msgstr "চেক ইন"
 
 #: checkins/consumers.py:73
 msgid "Sent checkin identifier doesn't exist"
@@ -184,9 +184,9 @@ msgstr ""
 msgid "Speakers"
 msgstr ""
 
-#: checkins/views.py:181 templates/nav/public_nav.html:132
+#: checkins/views.py:181 templates/nav/public_nav.html:145
 msgid "Adjudicators"
-msgstr ""
+msgstr "বিচারকমন্ডলী"
 
 #: checkins/views.py:186
 msgid "Rooms"
@@ -221,44 +221,52 @@ msgstr ""
 msgid "You are now checked in."
 msgstr ""
 
-#: settings/core.py:59
+#: settings/core.py:67
 msgid "Arabic"
 msgstr ""
 
-#: settings/core.py:60
+#: settings/core.py:68
 msgid "Bengali"
 msgstr ""
 
-#: settings/core.py:61
+#: settings/core.py:69
 msgid "English"
 msgstr ""
 
-#: settings/core.py:62
+#: settings/core.py:70
 msgid "Spanish"
 msgstr ""
 
-#: settings/core.py:63
+#: settings/core.py:71
 msgid "French"
 msgstr ""
 
-#: settings/core.py:64
+#: settings/core.py:72
+msgid "Indonesian"
+msgstr ""
+
+#: settings/core.py:73
 msgid "Japanese"
 msgstr ""
 
-#: settings/core.py:65
+#: settings/core.py:74
 msgid "Malay"
 msgstr ""
 
-#: settings/core.py:66
+#: settings/core.py:75
 msgid "Portuguese"
 msgstr ""
 
-#: settings/core.py:67
+#: settings/core.py:76
 msgid "Russian"
 msgstr ""
 
-#: settings/core.py:68
+#: settings/core.py:77
 msgid "Simplified Chinese"
+msgstr ""
+
+#: settings/core.py:78
+msgid "Translation"
 msgstr ""
 
 #: templates/admin/delete_protected_message.html:4
@@ -343,7 +351,7 @@ msgstr ""
 #: templates/footer.html:14
 #, python-format
 msgid "%(tournament)s runs on Tabbycat %(tabbycat_version)s (%(tabbycat_codename)s)"
-msgstr ""
+msgstr "%(tournament)s Tabbycat %(tabbycat_version)s (%(tabbycat_codename)s) ভিত্তি করে চলছে"
 
 #: templates/footer.html:16
 #, python-format
@@ -357,11 +365,11 @@ msgstr ""
 #: templates/footer.html:24
 #, python-format
 msgid "For a tournament of this size, we suggest a donation of <strong>$%(amount)s</strong>."
-msgstr ""
+msgstr "এই মাপের একটি আয়োজনের জন্য আমরা <strong>$%(amount)s</strong> পরিমাণ অনুদান আশা করি।"
 
 #: templates/footer.html:28
 msgid "Learn more about donating."
-msgstr ""
+msgstr "অনুদান প্রদান সম্পর্কে আরো জানুন।"
 
 #: templates/footer.html:32
 #, python-format
@@ -370,19 +378,19 @@ msgstr ""
 
 #: templates/footer.html:40
 msgid "Still timing debates with the stopwatch app?"
-msgstr ""
+msgstr "এখনো থামাঘড়ি দিয়ে বিতর্কের সময় রক্ষা করছেন?"
 
 #: templates/footer.html:42
 #, python-format
 msgid "Using an app designed for debate timekeeping makes speaking and adjudicating easier! Check out <a href=\"https://itunes.apple.com/app/apple-store/id1156065589?pt=814172&ct=Tabbycat%%20Installs&mt=8\">Timekept</a> (iPhone/iPad) or <a href=\"https://play.google.com/store/apps/details?id=net.czlee.debatekeeper&referrer=utm_source%%3Dtabbycat%%26utm_medium%%3Dfooter\">Debatekeeper</a> (Android)."
-msgstr ""
+msgstr "বিতর্কের জন্যই তৈরি সময় রক্ষক অ্যাপ ব্যবহার বিতর্ক ও বিচারকার্য সহজ করবে! দেখে আসতে পারেন <a href=\"https://itunes.apple.com/app/apple-store/id1156065589?pt=814172&ct=Tabbycat%%20Installs&mt=8\">টাইমকেপ্ট</a> (আইফোন/আইপ্যাড), <a href=\"https://play.google.com/store/apps/details?id=net.czlee.debatekeeper&referrer=utm_source%%3Dtabbycat%%26utm_medium%%3Dfooter\">ডিবেটকিপার</a> (অ্যান্ড্রয়েড) বা <a href=\"https://top.gg/bot/706179030977740810r\">হিয়ার! হিয়ার! বট</a> (ডিস্কর্ড)"
 
 #: templates/footer.html:51
 msgid "Need ballots?"
-msgstr ""
+msgstr "ব্যালট পত্র লাগবে?"
 
 #: templates/footer.html:53
-msgid "You can <a href=\"https://tabbycatdebate.github.io/debate-ballots/\" rel=\"noreferrer\" target=\"_blank\"> customise and print</a> great ballots from your browser."
+msgid "Tabbycat is supported by the <a href=\"http://tabbycat-debate.org/\">Tabbycat Debate Association</a>, a non-profit for advancing open debate technology."
 msgstr ""
 
 #: templates/footer.html:66
@@ -411,11 +419,11 @@ msgstr "একটি কপি তৈরী করুন।"
 
 #: templates/footer.html:111
 msgid "Change Language"
-msgstr ""
+msgstr "ভাষা পরিবর্তন করুন"
 
 #: templates/footer.html:128
 msgid "Use this language"
-msgstr ""
+msgstr "এই ভাষাটি সক্রিয় করুন"
 
 #: templates/nav/admin_nav.html:9 templates/nav/top_nav_base.html:6
 msgid "Tabbycat Logo"
@@ -423,7 +431,7 @@ msgstr ""
 
 #: templates/nav/admin_nav.html:28 templates/nav/top_nav_base.html:59
 msgid "Site Home"
-msgstr ""
+msgstr "মূল পাতা"
 
 #: templates/nav/admin_nav.html:31
 msgid "New Tournament"
@@ -463,9 +471,9 @@ msgid "Import Data"
 msgstr ""
 
 #: templates/nav/admin_nav.html:81 templates/nav/assistant_nav.html:18
-#: templates/nav/public_nav.html:162
+#: templates/nav/public_nav.html:175
 msgid "Participants"
-msgstr ""
+msgstr "অংশগ্রহণকারী"
 
 #: templates/nav/admin_nav.html:85
 msgid "Private URLs"
@@ -479,7 +487,7 @@ msgstr ""
 msgid "Preformed Panels"
 msgstr "পূর্বগঠিত প্যানেল"
 
-#: templates/nav/admin_nav.html:103 templates/nav/public_nav.html:147
+#: templates/nav/admin_nav.html:103 templates/nav/public_nav.html:160
 msgid "Sides"
 msgstr "পক্ষ"
 
@@ -527,7 +535,7 @@ msgstr ""
 msgid "Bulk Update"
 msgstr ""
 
-#: templates/nav/admin_nav.html:179 templates/nav/public_nav.html:152
+#: templates/nav/admin_nav.html:179 templates/nav/public_nav.html:165
 msgid "Standings"
 msgstr ""
 
@@ -542,7 +550,7 @@ msgstr "দলসমূহ"
 #: templates/nav/admin_nav.html:197 templates/nav/public_nav.html:13
 #, python-format
 msgid "%(category)s Teams"
-msgstr ""
+msgstr "%(category)s দলসমূহ"
 
 #: templates/nav/admin_nav.html:204
 msgid "All Speakers"
@@ -551,17 +559,17 @@ msgstr ""
 #: templates/nav/admin_nav.html:211 templates/nav/public_nav.html:30
 #, python-format
 msgid "%(category)s Speakers"
-msgstr ""
+msgstr "%(category)s বক্তাসমূহ"
 
 #: templates/nav/admin_nav.html:219
 msgid "Replies"
 msgstr ""
 
-#: templates/nav/admin_nav.html:223 templates/nav/public_nav.html:142
+#: templates/nav/admin_nav.html:223 templates/nav/public_nav.html:155
 msgid "Motions"
 msgstr "প্রস্তাবসমূহ"
 
-#: templates/nav/admin_nav.html:226 templates/nav/public_nav.html:157
+#: templates/nav/admin_nav.html:226 templates/nav/public_nav.html:170
 msgid "Diversity"
 msgstr ""
 
@@ -594,7 +602,7 @@ msgstr "লগ আউট"
 msgid "Enter Results"
 msgstr ""
 
-#: templates/nav/assistant_nav.html:11 templates/nav/public_nav.html:182
+#: templates/nav/assistant_nav.html:11 templates/nav/public_nav.html:195
 msgid "Enter Feedback"
 msgstr ""
 
@@ -602,7 +610,7 @@ msgstr ""
 msgid "Participants List"
 msgstr ""
 
-#: templates/nav/assistant_nav.html:25 templates/nav/public_nav.html:167
+#: templates/nav/assistant_nav.html:25 templates/nav/public_nav.html:180
 msgid "Institutions"
 msgstr ""
 
@@ -624,54 +632,62 @@ msgstr ""
 
 #: templates/nav/public_nav.html:6
 msgid "Team Tab"
-msgstr ""
+msgstr "দলসমূহ"
 
 #: templates/nav/public_nav.html:22
 msgid "Speaker Tab"
-msgstr ""
+msgstr "বক্তাসমূহ"
 
 #: templates/nav/public_nav.html:40
 msgid "Replies Tab"
-msgstr ""
+msgstr "যুক্তি খন্ডন ট্যাব"
 
 #: templates/nav/public_nav.html:45
 msgid "Adjudicator Tab"
-msgstr ""
+msgstr "বিচারকমণ্ডলী"
 
-#: templates/nav/public_nav.html:50
+#: templates/nav/public_nav.html:53 templates/nav/public_nav.html:62
 msgid "Motions Tab"
+msgstr "প্রস্তাব ট্যাব"
+
+#: templates/nav/public_nav.html:56
+msgid "By round"
 msgstr ""
 
-#: templates/nav/public_nav.html:59
+#: templates/nav/public_nav.html:57
+msgid "Globally"
+msgstr ""
+
+#: templates/nav/public_nav.html:72
 msgid "Draws"
 msgstr ""
 
-#: templates/nav/public_nav.html:70
+#: templates/nav/public_nav.html:83
 msgid "No Draws Available"
 msgstr ""
 
-#: templates/nav/public_nav.html:78
+#: templates/nav/public_nav.html:91
 #, python-format
 msgid "Draw for %(round)s"
 msgstr ""
 
-#: templates/nav/public_nav.html:82
+#: templates/nav/public_nav.html:95
 msgid "Current Draws"
 msgstr ""
 
-#: templates/nav/public_nav.html:102 templates/nav/round_panel.html:57
+#: templates/nav/public_nav.html:115 templates/nav/round_panel.html:57
 msgid "Results"
 msgstr "ফলাফল"
 
-#: templates/nav/public_nav.html:120
+#: templates/nav/public_nav.html:133
 msgid "Break"
 msgstr "ব্রেক"
 
-#: templates/nav/public_nav.html:172
+#: templates/nav/public_nav.html:185
 msgid "Feedback Progress"
 msgstr ""
 
-#: templates/nav/public_nav.html:177
+#: templates/nav/public_nav.html:190
 msgid "Enter Ballot"
 msgstr ""
 
@@ -690,17 +706,17 @@ msgstr ""
 #: templates/nav/top_nav_base.html:29
 #, python-format
 msgid "Administrator area for <strong>%(tournament)s</strong>"
-msgstr ""
+msgstr "প্রশাসক অঞ্চল <strong>%(tournament)s</strong>"
 
 #: templates/nav/top_nav_base.html:38
 #, python-format
 msgid "Assistant area for <strong>%(tournament)s</strong>"
-msgstr ""
+msgstr "সহায়ক অঞ্চল <strong>%(tournament)s</strong>"
 
 #: templates/nav/top_nav_base.html:47
 #, python-format
 msgid "Public area for <strong>%(tournament)s</strong>"
-msgstr ""
+msgstr "গণ অঞ্চল <strong>%(tournament)s</strong>"
 
 #: templates/nav/top_nav_base.html:105
 msgid "Login"

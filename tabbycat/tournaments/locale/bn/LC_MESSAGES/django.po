@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 15:04-0400\n"
-"PO-Revision-Date: 2020-11-16 19:12\n"
+"PO-Revision-Date: 2020-12-31 14:48\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -526,33 +526,33 @@ msgstr ""
 
 #: tournaments/templates/public_tournament_index.html:36
 msgid "Team Tab"
-msgstr ""
+msgstr "দলসমূহ"
 
 #: tournaments/templates/public_tournament_index.html:43
 #, python-format
 msgid "%(category)s Team Tab"
-msgstr ""
+msgstr "%(category)s দলসমূহ"
 
 #: tournaments/templates/public_tournament_index.html:52
 msgid "Speaker Tab"
-msgstr ""
+msgstr "বক্তাসমূহ"
 
 #: tournaments/templates/public_tournament_index.html:60
 #, python-format
 msgid "%(category)s Speaker Tab"
-msgstr ""
+msgstr "%(category)s বক্তাসমূহ"
 
 #: tournaments/templates/public_tournament_index.html:70
 msgid "Replies Tab"
-msgstr ""
+msgstr "যুক্তি খন্ডন ট্যাব"
 
 #: tournaments/templates/public_tournament_index.html:76
 msgid "Adjudicator Tab"
-msgstr ""
+msgstr "বিচারকমণ্ডলী"
 
 #: tournaments/templates/public_tournament_index.html:82
 msgid "Motions Tab"
-msgstr ""
+msgstr "প্রস্তাব ট্যাব"
 
 #: tournaments/templates/public_tournament_index.html:88
 #: tournaments/templates/public_tournament_index.html:135
@@ -601,7 +601,7 @@ msgstr "উন্নীতকরণ %(category)s"
 
 #: tournaments/templates/public_tournament_index.html:157
 msgid "Breaking Adjudicators"
-msgstr ""
+msgstr "উন্নিত বিচারকমণ্ডলী"
 
 #: tournaments/templates/public_tournament_index.html:163
 msgid "Diversity"
@@ -609,7 +609,7 @@ msgstr ""
 
 #: tournaments/templates/public_tournament_index.html:169
 msgid "Participants"
-msgstr ""
+msgstr "অংশগ্রহণকারী"
 
 #: tournaments/templates/public_tournament_index.html:175
 msgid "Institutions"
@@ -629,7 +629,7 @@ msgstr ""
 
 #: tournaments/templates/public_tournament_index.html:215
 msgid "Tournament Staff"
-msgstr ""
+msgstr "কর্মকর্তা পরিষদ"
 
 #: tournaments/templates/round_complete_check.html:4
 #: tournaments/templates/round_complete_check.html:6
