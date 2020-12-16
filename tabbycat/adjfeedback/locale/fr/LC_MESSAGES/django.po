@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 17:59-0400\n"
-"PO-Revision-Date: 2020-11-18 23:29\n"
+"POT-Creation-Date: 2020-12-29 23:49-0400\n"
+"PO-Revision-Date: 2020-12-30 04:25\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -382,8 +382,8 @@ msgid "choices"
 msgstr "choix"
 
 #: adjfeedback/models.py:176
-msgid "Permissible choices for select one/multiple fields (ignored for other fields)"
-msgstr "Les choix acceptables pour les champs « sélectionner un/plusieurs » (ignoré dans les autres types de champ)"
+msgid "Permissible choices for select one/multiple fields (ignored for other fields), delimit options with commas"
+msgstr "Les choix acceptables pour les champs « sélectionner un/plusieurs » (ignoré dans les autres types de champ), séparés avec des virgules"
 
 #: adjfeedback/models.py:181
 msgid "adjudicator feedback question"
@@ -639,32 +639,32 @@ msgstr "Par %(source)s <span class=\"text-secondary small\">(%(relationship)s de
 msgid "From unknown"
 msgstr "Par inconnu"
 
-#: adjfeedback/templates/feedback_card.html:85
+#: adjfeedback/templates/feedback_card.html:88
 #, python-format
 msgid "%(time)s"
 msgstr "%(time)s"
 
-#: adjfeedback/templates/feedback_card.html:90
+#: adjfeedback/templates/feedback_card.html:93
 msgid "Unconfirmed feedback is not counted as having been submitted and does not affect this adjudicator's score."
 msgstr "Les évaluations non-confirmés ne sont pas comptés comme soumises et n'affecteront pas la note de ce juge."
 
-#: adjfeedback/templates/feedback_card.html:95
+#: adjfeedback/templates/feedback_card.html:98
 msgid "Un-confirm"
 msgstr "Dé-confirmer"
 
-#: adjfeedback/templates/feedback_card.html:95
+#: adjfeedback/templates/feedback_card.html:98
 msgid "Confirm"
 msgstr "Confirmer"
 
-#: adjfeedback/templates/feedback_card.html:100
+#: adjfeedback/templates/feedback_card.html:103
 msgid "Ignored feedback is counted as having been submitted, but does not affect this adjudicator's score."
 msgstr "Les évaluations ignorées sont comptés comme soumises, mais n'affectent pas la note de ce juge."
 
-#: adjfeedback/templates/feedback_card.html:105
+#: adjfeedback/templates/feedback_card.html:108
 msgid "Un-ignore"
 msgstr "Tenir en compte"
 
-#: adjfeedback/templates/feedback_card.html:105
+#: adjfeedback/templates/feedback_card.html:108
 msgid "Ignore"
 msgstr "Plus tenir en compte"
 
