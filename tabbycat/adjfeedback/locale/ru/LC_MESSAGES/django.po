@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 17:59-0400\n"
-"PO-Revision-Date: 2020-11-19 15:30\n"
+"POT-Creation-Date: 2020-12-29 23:49-0400\n"
+"PO-Revision-Date: 2020-12-30 04:11\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -392,7 +392,7 @@ msgid "choices"
 msgstr "выборы"
 
 #: adjfeedback/models.py:176
-msgid "Permissible choices for select one/multiple fields (ignored for other fields)"
+msgid "Permissible choices for select one/multiple fields (ignored for other fields), delimit options with commas"
 msgstr ""
 
 #: adjfeedback/models.py:181
@@ -651,32 +651,32 @@ msgstr "От %(source)s <span class=\"text-secondary small\">%(relationship)s о
 msgid "From unknown"
 msgstr "От неизвестного"
 
-#: adjfeedback/templates/feedback_card.html:85
+#: adjfeedback/templates/feedback_card.html:88
 #, python-format
 msgid "%(time)s"
 msgstr "%(time)s"
 
-#: adjfeedback/templates/feedback_card.html:90
+#: adjfeedback/templates/feedback_card.html:93
 msgid "Unconfirmed feedback is not counted as having been submitted and does not affect this adjudicator's score."
 msgstr "Не подтвержденная обратная связь не считается поданной и не влияет на оценку этого судьи."
 
-#: adjfeedback/templates/feedback_card.html:95
+#: adjfeedback/templates/feedback_card.html:98
 msgid "Un-confirm"
 msgstr "Отменить подтверждение"
 
-#: adjfeedback/templates/feedback_card.html:95
+#: adjfeedback/templates/feedback_card.html:98
 msgid "Confirm"
 msgstr "Подтвердить"
 
-#: adjfeedback/templates/feedback_card.html:100
+#: adjfeedback/templates/feedback_card.html:103
 msgid "Ignored feedback is counted as having been submitted, but does not affect this adjudicator's score."
 msgstr "Игнорируемая обратная связь считается поданной, но не влияет на оценку этого судьи."
 
-#: adjfeedback/templates/feedback_card.html:105
+#: adjfeedback/templates/feedback_card.html:108
 msgid "Un-ignore"
 msgstr "Не игнорировать"
 
-#: adjfeedback/templates/feedback_card.html:105
+#: adjfeedback/templates/feedback_card.html:108
 msgid "Ignore"
 msgstr "Игнорировать"
 
