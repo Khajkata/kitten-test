@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 16:09-0400\n"
-"PO-Revision-Date: 2020-11-18 21:01\n"
+"POT-Creation-Date: 2020-12-30 01:01-0400\n"
+"PO-Revision-Date: 2020-12-30 05:11\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Talossan\n"
 "Language: tzl_TZL\n"
@@ -590,724 +590,736 @@ msgstr "crwdns51792:0crwdne51792:0"
 msgid "Require reply speaker to have given a substantive speech"
 msgstr "crwdns51734:0crwdne51734:0"
 
-#: options/preferences.py:536
-msgid "Enables the motion veto field on ballots, to track veto statistics"
-msgstr "crwdns31416:0crwdne31416:0"
-
-#: options/preferences.py:537
-msgid "Motion vetoes"
-msgstr "crwdns31418:0crwdne31418:0"
-
-#: options/preferences.py:544 options/templates/preferences_index.html:68
+#: options/preferences.py:535 options/templates/preferences_index.html:68
 msgid "Standings"
 msgstr "crwdns31420:0crwdne31420:0"
 
-#: options/preferences.py:550
+#: options/preferences.py:541
 msgid "The number of substantive speeches a speaker can miss and still be on the speaker tab (-1 means no limit)"
 msgstr "crwdns31422:0crwdne31422:0"
 
-#: options/preferences.py:551
+#: options/preferences.py:542
 msgid "Speeches missable for standings eligibility"
 msgstr "crwdns31424:0crwdne31424:0"
 
-#: options/preferences.py:559
+#: options/preferences.py:550
 msgid "The number of reply speeches a speaker can miss and still be on the replies tab (-1 means no limit)"
 msgstr "crwdns31426:0crwdne31426:0"
 
-#: options/preferences.py:560
+#: options/preferences.py:551
 msgid "Replies missable for standings eligibility"
 msgstr "crwdns31428:0crwdne31428:0"
 
-#: options/preferences.py:568
+#: options/preferences.py:559
 msgid "Metrics to use to rank teams (see documentation for further details)"
 msgstr "crwdns31430:0crwdne31430:0"
 
-#: options/preferences.py:569
+#: options/preferences.py:560
 msgid "Team standings precedence"
 msgstr "crwdns31432:0crwdne31432:0"
 
-#: options/preferences.py:585 options/preferences.py:620
+#: options/preferences.py:576 options/preferences.py:611
 #, python-format
 msgid "The following metrics can't be listed twice: %(duplicates)s"
 msgstr "crwdns31434:0%(duplicates)scrwdne31434:0"
 
-#: options/preferences.py:591
+#: options/preferences.py:582
 msgid "Metrics to calculate, but not used to rank teams"
 msgstr "crwdns31438:0crwdne31438:0"
 
-#: options/preferences.py:592
+#: options/preferences.py:583
 msgid "Team standings extra metrics"
 msgstr "crwdns31440:0crwdne31440:0"
 
-#: options/preferences.py:603
+#: options/preferences.py:594
 msgid "Metrics to use to rank speakers (see documentation for further details)"
 msgstr "crwdns31442:0crwdne31442:0"
 
-#: options/preferences.py:604
+#: options/preferences.py:595
 msgid "Speaker standings precedence"
 msgstr "crwdns31444:0crwdne31444:0"
 
-#: options/preferences.py:626
+#: options/preferences.py:617
 msgid "Metrics to calculate, but not used to rank speakers"
 msgstr "crwdns31446:0crwdne31446:0"
 
-#: options/preferences.py:627
+#: options/preferences.py:618
 msgid "Speaker standings extra metrics"
 msgstr "crwdns31448:0crwdne31448:0"
 
-#: options/preferences.py:637 options/templates/preferences_index.html:89
+#: options/preferences.py:628 options/templates/preferences_index.html:89
 msgid "Tab Release"
 msgstr "crwdns31450:0crwdne31450:0"
 
-#: options/preferences.py:643
+#: options/preferences.py:634
 msgid "Enables public display of the team tab. Intended for use after the tournament."
 msgstr "crwdns31452:0crwdne31452:0"
 
-#: options/preferences.py:644
+#: options/preferences.py:635
 msgid "Release team tab to public"
 msgstr "crwdns31454:0crwdne31454:0"
 
-#: options/preferences.py:652
+#: options/preferences.py:643
 msgid "Only show scores for the top X teams in the public tab (set to 0 to show all teams)."
 msgstr "crwdns31456:0crwdne31456:0"
 
-#: options/preferences.py:653
+#: options/preferences.py:644
 msgid "Top teams cutoff"
 msgstr "crwdns31458:0crwdne31458:0"
 
-#: options/preferences.py:661
+#: options/preferences.py:652
 msgid "Enables public display of the speaker tab. Intended for use after the tournament."
 msgstr "crwdns31460:0crwdne31460:0"
 
-#: options/preferences.py:662
+#: options/preferences.py:653
 msgid "Release speaker tab to public"
 msgstr "crwdns31462:0crwdne31462:0"
 
-#: options/preferences.py:670
+#: options/preferences.py:661
 msgid "Only show scores for the top X speakers in the public tab (set to 0 to show all speakers)."
 msgstr "crwdns31464:0crwdne31464:0"
 
-#: options/preferences.py:671
+#: options/preferences.py:662
 msgid "Top speakers cutoff"
 msgstr "crwdns31466:0crwdne31466:0"
 
-#: options/preferences.py:679
+#: options/preferences.py:670
 msgid "Enables public display of the replies tab. Intended for use after the tournament."
 msgstr "crwdns31468:0crwdne31468:0"
 
-#: options/preferences.py:680
+#: options/preferences.py:671
 msgid "Release replies tab to public"
 msgstr "crwdns31470:0crwdne31470:0"
 
-#: options/preferences.py:688
+#: options/preferences.py:679
 msgid "Only show scores for the top X repliers in the public tab (set to 0 to show all repliers)."
 msgstr "crwdns31472:0crwdne31472:0"
 
-#: options/preferences.py:689
+#: options/preferences.py:680
 msgid "Top replies cutoff"
 msgstr "crwdns31474:0crwdne31474:0"
 
-#: options/preferences.py:715
+#: options/preferences.py:706
 msgid "Enables public display of all motions and win/loss/selection information. This includes all motions — whether they have been marked as released or not. Intended for use after the tournament."
 msgstr "crwdns31476:0crwdne31476:0"
 
-#: options/preferences.py:718
+#: options/preferences.py:709
 msgid "Release motions tab to public"
 msgstr "crwdns31478:0crwdne31478:0"
 
-#: options/preferences.py:726
+#: options/preferences.py:717
 msgid "Enables public display of the feedback scores of all adjudicators"
 msgstr "crwdns31480:0crwdne31480:0"
 
-#: options/preferences.py:727
+#: options/preferences.py:718
 msgid "Release adjudicator tab to public"
 msgstr "crwdns31482:0crwdne31482:0"
 
-#: options/preferences.py:735
+#: options/preferences.py:726
 msgid "What (if released) the adjudicator tab shows"
 msgstr "crwdns31484:0crwdne31484:0"
 
-#: options/preferences.py:736
+#: options/preferences.py:727
 msgid "Adjudicator tab displays"
 msgstr "crwdns31486:0crwdne31486:0"
 
-#: options/preferences.py:740
+#: options/preferences.py:731
 msgid "Only shows base score"
 msgstr "crwdns35578:0crwdne35578:0"
 
-#: options/preferences.py:741
+#: options/preferences.py:732
 msgid "Only shows final score"
 msgstr "crwdns31490:0crwdne31490:0"
 
-#: options/preferences.py:742
+#: options/preferences.py:733
 msgid "Shows base, final, and per-round scores"
 msgstr "crwdns35580:0crwdne35580:0"
 
-#: options/preferences.py:749
+#: options/preferences.py:740
 msgid "Enables public display of every adjudicator's ballot. Intended for use after the tournament."
 msgstr "crwdns31494:0crwdne31494:0"
 
-#: options/preferences.py:750
+#: options/preferences.py:741
 msgid "Release ballots to public"
 msgstr "crwdns31496:0crwdne31496:0"
 
-#: options/preferences.py:758
+#: options/preferences.py:749
 msgid "This releases all the results for all rounds (including silent and break rounds). Do so only after the tournament is finished!"
 msgstr "crwdns31498:0crwdne31498:0"
 
-#: options/preferences.py:759
+#: options/preferences.py:750
 msgid "Release all round results to public"
 msgstr "crwdns31500:0crwdne31500:0"
 
-#: options/preferences.py:766 options/templates/preferences_index.html:94
+#: options/preferences.py:757 options/templates/preferences_index.html:94
 msgid "Data Entry"
 msgstr "crwdns31502:0crwdne31502:0"
 
-#: options/preferences.py:772
+#: options/preferences.py:763
 msgid "Whether adjudicators can submit ballots themselves, and how they do so"
 msgstr "crwdns31504:0crwdne31504:0"
 
-#: options/preferences.py:773
+#: options/preferences.py:764
 msgid "Ballot submissions from adjudicators"
 msgstr "crwdns31506:0crwdne31506:0"
 
-#: options/preferences.py:777 options/preferences.py:791
+#: options/preferences.py:768 options/preferences.py:782
 msgid "Disabled (tab staff only)"
 msgstr "crwdns31508:0crwdne31508:0"
 
-#: options/preferences.py:778 options/preferences.py:792
+#: options/preferences.py:769 options/preferences.py:783
 msgid "Use private URLs"
 msgstr "crwdns31510:0crwdne31510:0"
 
-#: options/preferences.py:779 options/preferences.py:793
+#: options/preferences.py:770 options/preferences.py:784
 msgid "Use publicly accessible form"
 msgstr "crwdns31512:0crwdne31512:0"
 
-#: options/preferences.py:786
+#: options/preferences.py:777
 msgid "Whether participants can submit feedback themselves, and how they do so"
 msgstr "crwdns31514:0crwdne31514:0"
 
-#: options/preferences.py:787
+#: options/preferences.py:778
 msgid "Feedback submissions from participants"
 msgstr "crwdns31516:0crwdne31516:0"
 
-#: options/preferences.py:800
+#: options/preferences.py:791
 msgid "If checked, users must enter a password when submitting public feedback and ballots"
 msgstr "crwdns31518:0crwdne31518:0"
 
-#: options/preferences.py:801
+#: options/preferences.py:792
 msgid "Require password for submission"
 msgstr "crwdns31520:0crwdne31520:0"
 
-#: options/preferences.py:809
+#: options/preferences.py:800
 msgid "Value of the password required for public submissions, if passwords are required"
 msgstr "crwdns31522:0crwdne31522:0"
 
-#: options/preferences.py:810
+#: options/preferences.py:801
 msgid "Password for public submission"
 msgstr "crwdns31524:0crwdne31524:0"
 
-#: options/preferences.py:818
+#: options/preferences.py:809
 msgid "Bypasses double checking by setting ballots to be automatically confirmed"
 msgstr "crwdns31526:0crwdne31526:0"
 
-#: options/preferences.py:819
+#: options/preferences.py:810
 msgid "Bypass double checking"
 msgstr "crwdns31528:0crwdne31528:0"
 
-#: options/preferences.py:827
+#: options/preferences.py:818
 msgid "Requires scores of draft ballots to be re-entered as part of the confirmation stage (to create more stringent check). Only applies to BP formats."
 msgstr "crwdns51310:0crwdne51310:0"
 
-#: options/preferences.py:828
+#: options/preferences.py:819
 msgid "Enforce blind confirmations"
 msgstr "crwdns51312:0crwdne51312:0"
 
-#: options/preferences.py:836
-msgid "If checked, ballots require a motion to be selected from a list of options. "
-msgstr "crwdns35204:0crwdne35204:0"
-
-#: options/preferences.py:837
-msgid "Enable motion selection"
-msgstr "crwdns35206:0crwdne35206:0"
-
-#: options/preferences.py:845
+#: options/preferences.py:827
 msgid "Whether assistants can access pages that can reveal matchups and motions ahead of public release (these pages are useful for displaying draws/motions to the public and for printing ballots)."
 msgstr "crwdns31534:0crwdne31534:0"
 
-#: options/preferences.py:848
+#: options/preferences.py:830
 msgid "Assistant user access"
 msgstr "crwdns31536:0crwdne31536:0"
 
-#: options/preferences.py:853
+#: options/preferences.py:835
 msgid "All areas (results entry, draw display, and motions)"
 msgstr "crwdns31538:0crwdne31538:0"
 
-#: options/preferences.py:854
+#: options/preferences.py:836
 msgid "Just results entry and draw display"
 msgstr "crwdns31540:0crwdne31540:0"
 
-#: options/preferences.py:855
+#: options/preferences.py:837
 msgid "Only results entry"
 msgstr "crwdns31542:0crwdne31542:0"
 
-#: options/preferences.py:861
+#: options/preferences.py:843
 msgid "Whether participants can check themselves in/out through their private URL."
 msgstr "crwdns31544:0crwdne31544:0"
 
-#: options/preferences.py:862
+#: options/preferences.py:844
 msgid "Participant self-checkin"
 msgstr "crwdns31546:0crwdne31546:0"
 
-#: options/preferences.py:870
+#: options/preferences.py:852
 msgid "The amount of time (in hours) before a speaker or adjudicator's check-in event expires"
 msgstr "crwdns31548:0crwdne31548:0"
 
-#: options/preferences.py:873
+#: options/preferences.py:855
 msgid "Check-In Window (People)"
 msgstr "crwdns31550:0crwdne31550:0"
 
-#: options/preferences.py:879
+#: options/preferences.py:861
 msgid "The amount of time (in hours) before a room's check-in event expires"
 msgstr "crwdns51314:0crwdne51314:0"
 
-#: options/preferences.py:882
+#: options/preferences.py:864
 msgid "Check-In Window (Rooms)"
 msgstr "crwdns51316:0crwdne51316:0"
 
-#: options/preferences.py:888
+#: options/preferences.py:870
 msgid "Whether the printed scoresheets should show the 'circle digits' prompt to help check bad handwriting"
 msgstr "crwdns31556:0crwdne31556:0"
 
-#: options/preferences.py:889
+#: options/preferences.py:871
 msgid "Ballot Digit Checks"
 msgstr "crwdns31558:0crwdne31558:0"
 
-#: options/preferences.py:897
-msgid "Whether the printed scoresheets should hide the text of motions (even if they have been entered and released)"
-msgstr "crwdns31560:0crwdne31560:0"
-
-#: options/preferences.py:898
-msgid "Ballot Hide Motions"
-msgstr "crwdns31562:0crwdne31562:0"
-
-#: options/preferences.py:906
+#: options/preferences.py:879
 msgid "The location to return scoresheets to, printed on pre-printed ballots. Set to 'TBA' to hide."
 msgstr "crwdns31564:0crwdne31564:0"
 
-#: options/preferences.py:907
+#: options/preferences.py:880
 msgid "Score return location"
 msgstr "crwdns31566:0crwdne31566:0"
 
-#: options/preferences.py:915
+#: options/preferences.py:888
 msgid "The location to return feedback to, printed on pre-printed feedback forms. Set to 'TBA' to hide."
 msgstr "crwdns31568:0crwdne31568:0"
 
-#: options/preferences.py:916
+#: options/preferences.py:889
 msgid "Feedback return location"
 msgstr "crwdns31570:0crwdne31570:0"
 
-#: options/preferences.py:924
+#: options/preferences.py:897
 msgid "Lets debates have their status as postponed, as to not block draw generation."
 msgstr "crwdns51736:0crwdne51736:0"
 
-#: options/preferences.py:925
+#: options/preferences.py:898
 msgid "Enable postponements"
 msgstr "crwdns51738:0crwdne51738:0"
 
-#: options/preferences.py:932 options/templates/preferences_index.html:99
+#: options/preferences.py:905 options/templates/preferences_index.html:99
 msgid "Public Features"
 msgstr "crwdns31572:0crwdne31572:0"
 
-#: options/preferences.py:938
+#: options/preferences.py:911
 msgid "Enables the public page listing all participants in the tournament"
 msgstr "crwdns31574:0crwdne31574:0"
 
-#: options/preferences.py:939
+#: options/preferences.py:912
 msgid "Enable public view of participants list"
 msgstr "crwdns31576:0crwdne31576:0"
 
-#: options/preferences.py:947
+#: options/preferences.py:920
 msgid "Enables the public page listing all institutions in the tournament"
 msgstr "crwdns31578:0crwdne31578:0"
 
-#: options/preferences.py:948
+#: options/preferences.py:921
 msgid "Enable public view of institutions list"
 msgstr "crwdns31580:0crwdne31580:0"
 
-#: options/preferences.py:956
+#: options/preferences.py:929
 msgid "Enables the public page listing diversity statistics"
 msgstr "crwdns31582:0crwdne31582:0"
 
-#: options/preferences.py:957
+#: options/preferences.py:930
 msgid "Enable public view of diversity info"
 msgstr "crwdns31584:0crwdne31584:0"
 
-#: options/preferences.py:965
+#: options/preferences.py:938
 msgid "Enables the public page showing checkin statuses for individuals, institutions, and teams. Note that this page can be slow when used at very large tournaments."
 msgstr "crwdns35208:0crwdne35208:0"
 
-#: options/preferences.py:968
+#: options/preferences.py:941
 msgid "Enable public view of the checkin statuses"
 msgstr "crwdns31588:0crwdne31588:0"
 
-#: options/preferences.py:976
+#: options/preferences.py:949
 msgid "If the participants list is enabled, displays break category eligibility on that page"
 msgstr "crwdns31590:0crwdne31590:0"
 
-#: options/preferences.py:977
+#: options/preferences.py:950
 msgid "Show break categories on participants page"
 msgstr "crwdns31592:0crwdne31592:0"
 
-#: options/preferences.py:985
+#: options/preferences.py:958
 msgid "Enables the public page listing pre-allocated sides"
 msgstr "crwdns31594:0crwdne31594:0"
 
-#: options/preferences.py:986
+#: options/preferences.py:959
 msgid "Show pre-allocated sides to public"
 msgstr "crwdns31596:0crwdne31596:0"
 
-#: options/preferences.py:994
+#: options/preferences.py:967
 msgid "Enables the public page showing released draws"
 msgstr "crwdns31598:0crwdne31598:0"
 
-#: options/preferences.py:995
+#: options/preferences.py:968
 msgid "Enable public view of draw"
 msgstr "crwdns31600:0crwdne31600:0"
 
-#: options/preferences.py:999
+#: options/preferences.py:972
 msgid "Disabled"
 msgstr "crwdns31602:0crwdne31602:0"
 
-#: options/preferences.py:1000
+#: options/preferences.py:973
 msgid "Show a single page for the current round's draw"
 msgstr "crwdns31604:0crwdne31604:0"
 
-#: options/preferences.py:1001
+#: options/preferences.py:974
 msgid "Show individual pages for all released draws"
 msgstr "crwdns31606:0crwdne31606:0"
 
-#: options/preferences.py:1008
+#: options/preferences.py:981
 msgid "Enables the public page showing results of non-silent rounds"
 msgstr "crwdns31608:0crwdne31608:0"
 
-#: options/preferences.py:1009
+#: options/preferences.py:982
 msgid "Enable public view of results"
 msgstr "crwdns31610:0crwdne31610:0"
 
-#: options/preferences.py:1017
+#: options/preferences.py:990
 msgid "Enables the public page showing motions that have been explicitly released to the public"
 msgstr "crwdns31612:0crwdne31612:0"
 
-#: options/preferences.py:1018
+#: options/preferences.py:991
 msgid "Enable public view of motions"
 msgstr "crwdns31614:0crwdne31614:0"
 
-#: options/preferences.py:1026
+#: options/preferences.py:999
 msgid "Enables the public page showing team standings, showing wins only (not speaker scores or ranking)"
 msgstr "crwdns31616:0crwdne31616:0"
 
-#: options/preferences.py:1027
+#: options/preferences.py:1000
 msgid "Enable public view of team standings"
 msgstr "crwdns31618:0crwdne31618:0"
 
-#: options/preferences.py:1035
+#: options/preferences.py:1008
 msgid "Enables the public page for each team and adjudicator showing their records"
 msgstr "crwdns31620:0crwdne31620:0"
 
-#: options/preferences.py:1036
+#: options/preferences.py:1009
 msgid "Enable public record pages"
 msgstr "crwdns31622:0crwdne31622:0"
 
-#: options/preferences.py:1044
+#: options/preferences.py:1017
 msgid "Enables the public page showing the team breaks. Intended for use after the break announcement."
 msgstr "crwdns31624:0crwdne31624:0"
 
-#: options/preferences.py:1045
+#: options/preferences.py:1018
 msgid "Release team breaks to public"
 msgstr "crwdns31626:0crwdne31626:0"
 
-#: options/preferences.py:1053
+#: options/preferences.py:1026
 msgid "Enables the public page showing breaking adjudicators. Intended for use after the break announcement."
 msgstr "crwdns31628:0crwdne31628:0"
 
-#: options/preferences.py:1054
+#: options/preferences.py:1027
 msgid "Release adjudicators break to public"
 msgstr "crwdns31630:0crwdne31630:0"
 
-#: options/preferences.py:1062
+#: options/preferences.py:1035
 msgid "Enables the public page detailing who has unsubmitted feedback"
 msgstr "crwdns31632:0crwdne31632:0"
 
-#: options/preferences.py:1063
+#: options/preferences.py:1036
 msgid "Enable public view of unsubmitted feedback"
 msgstr "crwdns31634:0crwdne31634:0"
 
-#: options/preferences.py:1071
+#: options/preferences.py:1044
 msgid "List of tournament staff, to be displayed on the tournament home page. Leave this blank or with the default text if you want to not show this information."
 msgstr "crwdns31636:0crwdne31636:0"
 
-#: options/preferences.py:1072
+#: options/preferences.py:1045
 msgid "Tournament staff"
 msgstr "crwdns31638:0crwdne31638:0"
 
-#: options/preferences.py:1082
+#: options/preferences.py:1055
 msgid "Message to be displayed on the tournament home page"
 msgstr "crwdns31640:0crwdne31640:0"
 
-#: options/preferences.py:1083
+#: options/preferences.py:1056
 msgid "Welcome message"
 msgstr "crwdns31642:0crwdne31642:0"
 
-#: options/preferences.py:1092 options/templates/preferences_index.html:104
+#: options/preferences.py:1065 options/templates/preferences_index.html:104
 msgid "UI Options"
 msgstr "crwdns31644:0crwdne31644:0"
 
-#: options/preferences.py:1098
+#: options/preferences.py:1071
 msgid "If showing results to public, show splitting adjudicators in them"
 msgstr "crwdns31646:0crwdne31646:0"
 
-#: options/preferences.py:1099
+#: options/preferences.py:1072
 msgid "Show splitting adjudicators"
 msgstr "crwdns31648:0crwdne31648:0"
 
-#: options/preferences.py:1107
-msgid "If showing results to public, show which motions were selected in the record"
-msgstr "crwdns31650:0crwdne31650:0"
-
-#: options/preferences.py:1108
-msgid "Show motions in results"
-msgstr "crwdns31652:0crwdne31652:0"
-
-#: options/preferences.py:1116
+#: options/preferences.py:1080
 msgid "Whether and how to use code names for teams"
 msgstr "crwdns31654:0crwdne31654:0"
 
-#: options/preferences.py:1117
+#: options/preferences.py:1081
 msgid "Team code names"
 msgstr "crwdns31656:0crwdne31656:0"
 
-#: options/preferences.py:1122
+#: options/preferences.py:1086
 msgid "Do not use code names"
 msgstr "crwdns31658:0crwdne31658:0"
 
-#: options/preferences.py:1123
+#: options/preferences.py:1087
 msgid "Use real names everywhere, and show code names in tooltips"
 msgstr "crwdns31660:0crwdne31660:0"
 
-#: options/preferences.py:1124
+#: options/preferences.py:1088
 msgid "Use code names for public; real names with code names in tooltips for admins"
 msgstr "crwdns31662:0crwdne31662:0"
 
-#: options/preferences.py:1126
+#: options/preferences.py:1090
 msgid "Use code names for public; code names with real names in tooltips for admins"
 msgstr "crwdns31664:0crwdne31664:0"
 
-#: options/preferences.py:1128
+#: options/preferences.py:1092
 msgid "Use code names everywhere; do not use tooltips (real names show in some admin views)"
 msgstr "crwdns31666:0crwdne31666:0"
 
-#: options/preferences.py:1134
+#: options/preferences.py:1098
 msgid "Display team emoji in the public and admin interfaces"
 msgstr "crwdns31668:0crwdne31668:0"
 
-#: options/preferences.py:1135
+#: options/preferences.py:1099
 msgid "Show emoji"
 msgstr "crwdns31670:0crwdne31670:0"
 
-#: options/preferences.py:1143
+#: options/preferences.py:1107
 msgid "In tables listing teams, adds a column showing their institutions"
 msgstr "crwdns31672:0crwdne31672:0"
 
-#: options/preferences.py:1144
+#: options/preferences.py:1108
 msgid "Show team institutions"
 msgstr "crwdns31674:0crwdne31674:0"
 
-#: options/preferences.py:1152
+#: options/preferences.py:1116
 msgid "Hide the institutions of adjudicators on public pages and on printed ballots"
 msgstr "crwdns51318:0crwdne51318:0"
 
-#: options/preferences.py:1153
+#: options/preferences.py:1117
 msgid "Show adjudicator institutions"
 msgstr "crwdns31678:0crwdne31678:0"
 
-#: options/preferences.py:1161
+#: options/preferences.py:1125
 msgid "Enables a hover element on every team's name showing that team's speakers"
 msgstr "crwdns31680:0crwdne31680:0"
 
-#: options/preferences.py:1162
+#: options/preferences.py:1126
 msgid "Show speakers in draw"
 msgstr "crwdns31682:0crwdne31682:0"
 
-#: options/preferences.py:1170
-msgid "Order in which are listed by round in the public view"
-msgstr "crwdns31684:0crwdne31684:0"
-
-#: options/preferences.py:1171
-msgid "Order to display motions"
-msgstr "crwdns31686:0crwdne31686:0"
-
-#: options/preferences.py:1175
-msgid "Earliest round first"
-msgstr "crwdns31688:0crwdne31688:0"
-
-#: options/preferences.py:1176
-msgid "Latest round first"
-msgstr "crwdns31690:0crwdne31690:0"
-
-#: options/preferences.py:1182 options/templates/preferences_index.html:109
+#: options/preferences.py:1133 options/templates/preferences_index.html:109
 msgid "Notifications"
 msgstr "crwdns31764:0crwdne31764:0"
 
-#: options/preferences.py:1188
+#: options/preferences.py:1139
 msgid "The name of the organizer tasked with managing emails (in case of replies)"
 msgstr "crwdns31766:0crwdne31766:0"
 
-#: options/preferences.py:1189
+#: options/preferences.py:1140
 msgid "Reply-to name"
 msgstr "crwdns31768:0crwdne31768:0"
 
-#: options/preferences.py:1197
+#: options/preferences.py:1148
 msgid "The email address for handling replies"
 msgstr "crwdns31770:0crwdne31770:0"
 
-#: options/preferences.py:1198
+#: options/preferences.py:1149
 msgid "Reply-to address"
 msgstr "crwdns31772:0crwdne31772:0"
 
-#: options/preferences.py:1206
+#: options/preferences.py:1157
 msgid "A secret key to accept email status events"
 msgstr "crwdns35210:0crwdne35210:0"
 
-#: options/preferences.py:1207
+#: options/preferences.py:1158
 msgid "Email status secret key"
 msgstr "crwdns35212:0crwdne35212:0"
 
-#: options/preferences.py:1217
+#: options/preferences.py:1168
 msgid "Enables a copy of adjudicators' ballots to be automatically sent to them (by email) after they are entered in Tabbycat (for confirmation or checking)"
 msgstr "crwdns35214:0crwdne35214:0"
 
-#: options/preferences.py:1218
+#: options/preferences.py:1169
 msgid "Ballot receipts"
 msgstr "crwdns31776:0crwdne31776:0"
 
-#: options/preferences.py:1226
+#: options/preferences.py:1177
 msgid "The subject line for emails sent to adjudicators with their submitted ballot. Use '{{ DEBATE }}' as a placeholder for the associated debate"
 msgstr "crwdns31778:0{{ DEBATE }}crwdne31778:0"
 
-#: options/preferences.py:1228
+#: options/preferences.py:1179
 msgid "Ballot receipt subject line"
 msgstr "crwdns31780:0crwdne31780:0"
 
-#: options/preferences.py:1236
+#: options/preferences.py:1187
 msgid "The message body for emails sent to adjudicators with their submitted ballot."
 msgstr "crwdns35216:0crwdne35216:0"
 
-#: options/preferences.py:1237
+#: options/preferences.py:1188
 msgid "Ballot receipt message"
 msgstr "crwdns31784:0crwdne31784:0"
 
-#: options/preferences.py:1253
+#: options/preferences.py:1204
 msgid "The subject line for emails sent to speakers with their team points."
 msgstr "crwdns35218:0crwdne35218:0"
 
-#: options/preferences.py:1254
+#: options/preferences.py:1205
 msgid "Team points subject line"
 msgstr "crwdns31788:0crwdne31788:0"
 
-#: options/preferences.py:1261
+#: options/preferences.py:1212
 msgid "The message body for emails sent to speakers with their team points."
 msgstr "crwdns35220:0crwdne35220:0"
 
-#: options/preferences.py:1262
+#: options/preferences.py:1213
 msgid "Team points message"
 msgstr "crwdns31792:0crwdne31792:0"
 
-#: options/preferences.py:1271
+#: options/preferences.py:1222
 msgid "The subject-line for emails sent to adjudicators with their assignments."
 msgstr "crwdns35222:0crwdne35222:0"
 
-#: options/preferences.py:1272
+#: options/preferences.py:1223
 msgid "Adjudicator draw subject line"
 msgstr "crwdns31804:0crwdne31804:0"
 
-#: options/preferences.py:1279
+#: options/preferences.py:1230
 msgid "The message body for emails sent to adjudicators with their assignments."
 msgstr "crwdns35224:0crwdne35224:0"
 
-#: options/preferences.py:1280
+#: options/preferences.py:1231
 msgid "Adjudicator draw message"
 msgstr "crwdns35226:0crwdne35226:0"
 
-#: options/preferences.py:1289
+#: options/preferences.py:1240
 msgid "The subject-line for emails sent to teams with their draw."
 msgstr "crwdns35228:0crwdne35228:0"
 
-#: options/preferences.py:1290
+#: options/preferences.py:1241
 msgid "Team draw subject line"
 msgstr "crwdns34346:0crwdne34346:0"
 
-#: options/preferences.py:1297 options/preferences.py:1315
+#: options/preferences.py:1248 options/preferences.py:1266
 msgid "The message body for emails sent to participants with their private URLs."
 msgstr "crwdns35230:0crwdne35230:0"
 
-#: options/preferences.py:1298 options/preferences.py:1316
+#: options/preferences.py:1249 options/preferences.py:1267
 msgid "Private URL notification message"
 msgstr "crwdns34350:0crwdne34350:0"
 
-#: options/preferences.py:1307
+#: options/preferences.py:1258
 msgid "The subject-line for emails sent to participants with their private URLs."
 msgstr "crwdns35232:0crwdne35232:0"
 
-#: options/preferences.py:1308
+#: options/preferences.py:1259
 msgid "Private URL notification subject line"
 msgstr "crwdns34354:0crwdne34354:0"
 
-#: options/preferences.py:1329
+#: options/preferences.py:1280
 msgid "The subject-line for emails sent to participants on motion release."
 msgstr "crwdns34356:0crwdne34356:0"
 
-#: options/preferences.py:1330
+#: options/preferences.py:1281
 msgid "Motion release notification subject line"
 msgstr "crwdns34358:0crwdne34358:0"
 
-#: options/preferences.py:1337
+#: options/preferences.py:1288
 msgid "The message body for emails sent to participants on motion release."
 msgstr "crwdns34360:0crwdne34360:0"
 
-#: options/preferences.py:1338
+#: options/preferences.py:1289
 msgid "Motion release notification message"
 msgstr "crwdns34362:0crwdne34362:0"
 
-#: options/preferences.py:1346
+#: options/preferences.py:1297
 msgid "The subject-line for emails sent to participants informing them of their team registration."
 msgstr "crwdns34364:0crwdne34364:0"
 
-#: options/preferences.py:1347
+#: options/preferences.py:1298
 msgid "Team registration notification subject line"
 msgstr "crwdns34366:0crwdne34366:0"
 
-#: options/preferences.py:1354
+#: options/preferences.py:1305
 msgid "The message body for emails sent to participants informing them of their team registration."
 msgstr "crwdns34368:0crwdne34368:0"
 
-#: options/preferences.py:1355
+#: options/preferences.py:1306
 msgid "Team registration notification message"
 msgstr "crwdns34370:0crwdne34370:0"
 
-#: options/preferences.py:1362 options/templates/preferences_index.html:78
+#: options/preferences.py:1315 options/templates/preferences_index.html:78
+msgid "Motions"
+msgstr "crwdns51842:0crwdne51842:0"
+
+#: options/preferences.py:1321
+msgid "If checked, ballots require a motion to be entered"
+msgstr "crwdns51844:0crwdne51844:0"
+
+#: options/preferences.py:1322
+msgid "Enable motions"
+msgstr "crwdns51846:0crwdne51846:0"
+
+#: options/preferences.py:1330
+msgid "Whether the printed scoresheets should hide the text of motions (even if they have been entered and released)"
+msgstr "crwdns31560:0crwdne31560:0"
+
+#: options/preferences.py:1331
+msgid "Ballot Hide Motions"
+msgstr "crwdns31562:0crwdne31562:0"
+
+#: options/preferences.py:1339
+msgid "Enables the motion veto field on ballots, to track veto statistics"
+msgstr "crwdns31416:0crwdne31416:0"
+
+#: options/preferences.py:1340
+msgid "Motion vetoes"
+msgstr "crwdns31418:0crwdne31418:0"
+
+#: options/preferences.py:1348
+msgid "If showing results to public, show which motions were selected in the record"
+msgstr "crwdns31650:0crwdne31650:0"
+
+#: options/preferences.py:1349
+msgid "Show motions in results"
+msgstr "crwdns31652:0crwdne31652:0"
+
+#: options/preferences.py:1357
+msgid "Order in which are listed by round in the public view"
+msgstr "crwdns31684:0crwdne31684:0"
+
+#: options/preferences.py:1358
+msgid "Order to display motions"
+msgstr "crwdns31686:0crwdne31686:0"
+
+#: options/preferences.py:1362
+msgid "Earliest round first"
+msgstr "crwdns31688:0crwdne31688:0"
+
+#: options/preferences.py:1363
+msgid "Latest round first"
+msgstr "crwdns31690:0crwdne31690:0"
+
+#: options/preferences.py:1370
+msgid "Whether motions can be reused from one round to another."
+msgstr "crwdns51858:0crwdne51858:0"
+
+#: options/preferences.py:1371
+msgid "Allow motion reuse"
+msgstr "crwdns51860:0crwdne51860:0"
+
+#: options/preferences.py:1378 options/templates/preferences_index.html:114
 msgid "Global Settings"
 msgstr "crwdns51602:0crwdne51602:0"
 
-#: options/preferences.py:1368
+#: options/preferences.py:1384
 msgid "Enables external applications to access the site through a dedicated interface, subject to public information settings."
 msgstr "crwdns51604:0crwdne51604:0"
 
-#: options/preferences.py:1369
+#: options/preferences.py:1385
 msgid "Enable API access"
 msgstr "crwdns51606:0crwdne51606:0"
 
-#: options/presets.py:32 options/presets.py:352
+#: options/presets.py:32 options/presets.py:351
 msgid "Public Information Options"
 msgstr "crwdns35582:0crwdne35582:0"
 
@@ -1383,15 +1395,15 @@ msgstr "crwdns35616:0crwdne35616:0"
 msgid "3 vs 3 with replies, chosen motions, prop/opp side labels, and all adjudicators can receive feedback from teams."
 msgstr "crwdns35618:0crwdne35618:0"
 
-#: options/presets.py:354
+#: options/presets.py:353
 msgid "For tournaments hosted online: this sets it up so that people can access the draw and other generally useful information via the tab site."
 msgstr "crwdns35620:0crwdne35620:0"
 
-#: options/presets.py:366
+#: options/presets.py:365
 msgid "Tab Release Options"
 msgstr "crwdns35622:0crwdne35622:0"
 
-#: options/presets.py:368
+#: options/presets.py:367
 msgid "For when a tab is ready to be released. This will publicly display the results of all rounds, the team tab, the speaker tab, etc"
 msgstr "crwdns35624:0crwdne35624:0"
 
@@ -1436,8 +1448,8 @@ msgid "How adjudicators are ranked and who can submit feedback"
 msgstr "crwdns31822:0crwdne31822:0"
 
 #: options/templates/preferences_index.html:79
-msgid "Settings which can affect all tournaments on the site"
-msgstr "crwdns51608:0crwdne51608:0"
+msgid "How and where are motions used"
+msgstr "crwdns51852:0crwdne51852:0"
 
 #: options/templates/preferences_index.html:90
 msgid "When to release a public tab is made visible and what data it shows"
@@ -1459,23 +1471,27 @@ msgstr "crwdns31830:0crwdne31830:0"
 msgid "Configures sending notifications, such as emails confirming ballot submissions or team points"
 msgstr "crwdns31832:0crwdne31832:0"
 
-#: options/templates/preferences_index.html:122
+#: options/templates/preferences_index.html:115
+msgid "Settings which can affect all tournaments on the site"
+msgstr "crwdns51608:0crwdne51608:0"
+
+#: options/templates/preferences_index.html:127
 msgid "Manually Set Current Round"
 msgstr "crwdns31836:0crwdne31836:0"
 
-#: options/templates/preferences_index.html:123
+#: options/templates/preferences_index.html:128
 msgid "Tabbycat will prompt you to advance the current round on each round's results page. However, if there are special circumstances that require you to override this and set the current round to something else, use this page."
 msgstr "crwdns31838:0crwdne31838:0"
 
-#: options/templates/preferences_index.html:130
+#: options/templates/preferences_index.html:135
 msgid "Presets"
 msgstr "crwdns31840:0crwdne31840:0"
 
-#: options/templates/preferences_index.html:131
+#: options/templates/preferences_index.html:136
 msgid "These modify common settings for basic rules; double check our <a href=\"https://tabbycat.readthedocs.io/\" target=\"_blank\">documentation</a> to ensure they are correct for your tournament. Each links will display what settings it changes before applying them."
 msgstr "crwdns31842:0crwdne31842:0"
 
-#: options/templates/preferences_index.html:142
+#: options/templates/preferences_index.html:147
 #, python-format
 msgid "Apply %(preset)s"
 msgstr "crwdns51320:0%(preset)scrwdne51320:0"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 17:59-0400\n"
-"PO-Revision-Date: 2020-11-18 22:15\n"
+"POT-Creation-Date: 2020-12-29 23:49-0400\n"
+"PO-Revision-Date: 2020-12-30 04:12\n"
 "Last-Translator: \n"
 "Language-Team: Talossan\n"
 "Language: tzl_TZL\n"
@@ -382,8 +382,8 @@ msgid "choices"
 msgstr "crwdns29428:0crwdne29428:0"
 
 #: adjfeedback/models.py:176
-msgid "Permissible choices for select one/multiple fields (ignored for other fields)"
-msgstr "crwdns51706:0crwdne51706:0"
+msgid "Permissible choices for select one/multiple fields (ignored for other fields), delimit options with commas"
+msgstr "crwdns51808:0crwdne51808:0"
 
 #: adjfeedback/models.py:181
 msgid "adjudicator feedback question"
@@ -639,32 +639,32 @@ msgstr "crwdns33984:0%(source)scrwdnd33984:0%(relationship)scrwdnd33984:0%(side)
 msgid "From unknown"
 msgstr "crwdns29512:0crwdne29512:0"
 
-#: adjfeedback/templates/feedback_card.html:85
+#: adjfeedback/templates/feedback_card.html:88
 #, python-format
 msgid "%(time)s"
 msgstr "crwdns33986:0%(time)scrwdne33986:0"
 
-#: adjfeedback/templates/feedback_card.html:90
+#: adjfeedback/templates/feedback_card.html:93
 msgid "Unconfirmed feedback is not counted as having been submitted and does not affect this adjudicator's score."
 msgstr "crwdns35042:0crwdne35042:0"
 
-#: adjfeedback/templates/feedback_card.html:95
+#: adjfeedback/templates/feedback_card.html:98
 msgid "Un-confirm"
 msgstr "crwdns33990:0crwdne33990:0"
 
-#: adjfeedback/templates/feedback_card.html:95
+#: adjfeedback/templates/feedback_card.html:98
 msgid "Confirm"
 msgstr "crwdns33992:0crwdne33992:0"
 
-#: adjfeedback/templates/feedback_card.html:100
+#: adjfeedback/templates/feedback_card.html:103
 msgid "Ignored feedback is counted as having been submitted, but does not affect this adjudicator's score."
 msgstr "crwdns35044:0crwdne35044:0"
 
-#: adjfeedback/templates/feedback_card.html:105
+#: adjfeedback/templates/feedback_card.html:108
 msgid "Un-ignore"
 msgstr "crwdns29518:0crwdne29518:0"
 
-#: adjfeedback/templates/feedback_card.html:105
+#: adjfeedback/templates/feedback_card.html:108
 msgid "Ignore"
 msgstr "crwdns29520:0crwdne29520:0"
 
