@@ -23,7 +23,7 @@ sqlparse==0.2.3                         # Parsing SQL statements
 
 django-gulp==2.5.1                      # Run gulp tasks with dj r/collectstatic
 whitenoise==3.3.0                       # Static file serving
-waitress==1.0.2                         # For web serving
+waitress==1.4.3                         # For web serving
 
 # Development Aids
 
